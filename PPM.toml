@@ -23,7 +23,7 @@ url = "https://github.com/drQedwards/ppm-demo-project.git"
 
 # Build System Configuration
 [build-system]
-requires = ["setuptools>=68", "wheel", "build"]
+requires = ["setuptools>=68", "wheel", "build", "uv"]
 build-backend = "setuptools.build_meta"
 
 # PPM Tool Configuration
@@ -54,6 +54,7 @@ pandas = "^2.0.1"
 pytest = "^7.2.0"
 flake8 = "^6.0.0"
 black = "^23.3.0"
+uv = "^0.1.0"
 
 # Optional Dependencies
 [tool.ppm.optional-dependencies]
@@ -85,3 +86,4 @@ url = "https://github.com/drQedwards/PPM/issues"
 # Contribution Guidelines
 [tool.ppm.contributions]
 guidelines = "Please submit PRs to the PPM repo with detailed descriptions."
+
